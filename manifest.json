@@ -4,11 +4,8 @@
     "description": "Simple aim trainer game, with difficulty modes",
     "version": "0.0.1",
     "author": "Philip Wang & John Norlin",
-    "action": {
-      "default_popup": "popup.html"
-    },
     "icons": {
-      "16": "Assets/red target icon (1).png"
+      "16": "icons/red target icon (1).png"
     },
     "chrome_url_overrides" : {
       "newtab": "index.html"
