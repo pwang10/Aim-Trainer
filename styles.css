@@ -1,7 +1,7 @@
 body {
     background-color: #c4f8ff;
     font-size: 32px;
-    color: #0092a5;
+    /* color: #0092a5; */
 }
 
 #board {
@@ -9,10 +9,15 @@ body {
     width: 600px;
     border: 1px black solid;
     position: relative;
+    color: white
   }
   
-#apple {
+#target {
     height: 50px;
     width: 50px;
     position: absolute;
   }
+
+#title {
+  font-size: 32px;
+}
