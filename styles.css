@@ -1,5 +1,5 @@
 body {
-    background-color: #c4f8ff;
+    background-color: #ffffff;
     font-size: 32px;
     /* color: #0092a5; */
 }
@@ -8,8 +8,10 @@ body {
     height: 600px;
     width: 600px;
     border: 1px black solid;
-    position: relative;
-    color: white
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    /* background-color: rgb(255, 255, 255) */
   }
   
 #target {
@@ -18,6 +20,25 @@ body {
     position: absolute;
   }
 
+#score {
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 6%;
+  left: 35%;
+}
+
+#buttons {
+  
+  position: absolute;
+  left: 35%;
+  top: 79%
+}
+
 #title {
-  font-size: 32px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
