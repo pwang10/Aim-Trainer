@@ -1,0 +1,18 @@
+body {
+    background-color: #c4f8ff;
+    font-size: 32px;
+    color: #0092a5;
+}
+
+#board {
+    height: 600px;
+    width: 600px;
+    border: 1px black solid;
+    position: relative;
+  }
+  
+#apple {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+  }
