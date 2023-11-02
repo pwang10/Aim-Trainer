@@ -1,4 +1,9 @@
-
+// document.addEventListener('DOMContentLoaded', () => {
+  // window.open("index.html", "_blank", "width=1000, height=1000");
+// }, { once: true });
+// window.open("game.html", "_blank", "width=1000, height=1000")
+// setTimeout(window.open("index.html", "_blank", "width=1000, height=1000"), 1000)
+window.open("index.html", "testName", "width=1000, height=1000")
 document.addEventListener('DOMContentLoaded', () => {
   const body = document.querySelector('body');
   const title = document.querySelector('title');

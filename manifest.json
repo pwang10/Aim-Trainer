@@ -8,7 +8,7 @@
       "16": "icons/red target icon (1).png"
     },
     "chrome_url_overrides" : {
-      "newtab": "index.html"
+      "newtab": "popup.html"
     }
   }
   
